@@ -10,3 +10,5 @@ Terdapat 2 class.
 Asinchronous ada pada method checkIfIdExist kemudian method borrowBook dan addBook. dimana checkIfIdExist kita gunakan asinchronous karena mengecek buku pada kasus real-nya membutuhkan waktu. borrowBook dibuat asinchronous karena kita ingin menunggu method book.borrow untuk selesai terlebih dahulu sebelum programnya selesai. addBook dibuat asinchronous karena kita harus menunggu checkIfIdExist dahulu sebelum melakukan tindakan lebih lanjut yaitu menambah buku, kalau tidak Id yang sama atau memperingati user jika ada Id yang sama dan menggagalkan upaya penambahan buku
 
 pada class book checkAvailibility dibuat asinchronous karena pada kasus realnya mengecek buku membutuhkan waktu dan method borrow dibuat asinchronous karena kita harus menunggu checkAvailability dahulu sebelum menentukan apakah buku itu bisa dipinjam  apa tidak. 
+
+<img width="707" alt="Screenshot 2024-03-09 at 23 26 30" src="https://github.com/cahayaffa/tugas1prakprovis/assets/136771895/27c14453-53a7-4f82-932f-c51d34b1d74f">
