@@ -98,13 +98,16 @@ class Library {
 
   Future<void> borrowBook() async {
     String? id;
-
+    print ("enter id");
+    id = stdin.readLineSync();
     var book = books.firstWhere((element) => element.id == id);
     await book.borrow();
   }
 
   void returnBook() {
     String? id;
+    print ("enter id");
+    id = stdin.readLineSync();
     var book = books.firstWhere((element) => element.id == id);
     book.returnBook();
   }
